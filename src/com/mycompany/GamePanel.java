@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class GamePanel extends JPanel implements ActionListener{
-
+//This is snack game.
 	static final int SCREEN_WIDTH=600;
 	static final int SCREEN_HEIGHT=600;
 	static final int UNIT_SIZE=10;
@@ -73,8 +73,8 @@ public class GamePanel extends JPanel implements ActionListener{
 				g.setColor(Color.green);
 				g.fillRect(x[i],y[i],UNIT_SIZE,UNIT_SIZE);
 			}else {
-				//g.setColor(new Color(45,180,0));
-				g.setColor(new Color(random.nextInt(255),random.nextInt(255),random.nextInt(255)));
+				g.setColor(new Color(45,180,0));
+//				g.setColor(new Color(random.nextInt(255),random.nextInt(255),random.nextInt(255)));
 				g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
 			}
 		}
