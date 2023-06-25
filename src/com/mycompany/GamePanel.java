@@ -15,7 +15,6 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class GamePanel extends JPanel implements ActionListener{
-//This is snack game.
 	static final int SCREEN_WIDTH=600;
 	static final int SCREEN_HEIGHT=600;
 	static final int UNIT_SIZE=10;
